@@ -11,6 +11,9 @@ on:
       - '**.html'
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   validate-html:
     runs-on: ubuntu-latest
