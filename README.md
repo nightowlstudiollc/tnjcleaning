@@ -84,3 +84,4 @@ npx serve .
 ## Credits
 
 Site built for Juliet (T&J Cleaning, LLC) by [Night Owl Studio](https://github.com/nightowlstudiollc).
+Case study: [Building a Website for Someone Who Actually Uses It](https://projectinsomnia.com/blog/building-website-for-someone-who-uses-it/)
