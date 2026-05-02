@@ -21,7 +21,7 @@
 **Step 1: Create the destination directory**
 
 ```bash
-mkdir -p /Users/andrewrich/Developer/client/juliet-cleaning/images/gallery
+mkdir -p /Users/andrewrich/Developer/client/tnjcleaning/images/gallery
 ```
 
 **Step 2: Resize and copy all 18 images with `sips`**
@@ -31,7 +31,7 @@ Run from the project root:
 
 ```bash
 SOURCE="/Users/andrewrich/Pictures/NOS/juliet/site-images"
-DEST="/Users/andrewrich/Developer/client/juliet-cleaning/images/gallery"
+DEST="/Users/andrewrich/Developer/client/tnjcleaning/images/gallery"
 
 for f in \
   IMG_2746.jpeg IMG_2763.jpeg IMG_2784.jpeg IMG_2785.jpeg IMG_2786.jpeg \
@@ -45,7 +45,7 @@ done
 **Step 3: Verify — file sizes should be dramatically smaller**
 
 ```bash
-ls -lh /Users/andrewrich/Developer/client/juliet-cleaning/images/gallery/
+ls -lh /Users/andrewrich/Developer/client/tnjcleaning/images/gallery/
 ```
 
 Expected: 18 files, each roughly 150–400 KB (originals were 2–4 MB each).
@@ -171,7 +171,7 @@ Insert the entire gallery section between them:
 **Step 3: Open in browser and verify**
 
 ```bash
-open /Users/andrewrich/Developer/client/juliet-cleaning/index.html
+open /Users/andrewrich/Developer/client/tnjcleaning/index.html
 ```
 
 Expected: A new section between Services and Reviews with a row of unstyled images stacked/overflowing. Looks broken — that's fine. CSS comes next. The images should load (not 404).
@@ -334,7 +334,7 @@ Replace it with:
 **Step 3: Open in browser and verify layout**
 
 ```bash
-open /Users/andrewrich/Developer/client/juliet-cleaning/index.html
+open /Users/andrewrich/Developer/client/tnjcleaning/index.html
 ```
 
 Expected:
@@ -407,7 +407,7 @@ Insert immediately before it:
 **Step 2: Open in browser and test buttons**
 
 ```bash
-open /Users/andrewrich/Developer/client/juliet-cleaning/index.html
+open /Users/andrewrich/Developer/client/tnjcleaning/index.html
 ```
 
 Expected:
