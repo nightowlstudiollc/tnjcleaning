@@ -5,11 +5,12 @@
 A simple, professional marketing website for a local house cleaning service based in Post Falls, Idaho, serving the Inland Northwest (Spokane, Spokane Valley, Coeur d'Alene area).
 
 **Purpose:** Serve as a pre-qualification funnel before Thumbtack. Thumbtack charges $30 per contact regardless of conversion, so this site filters leads by:
+
 1. Providing comprehensive information upfront (services, reviews, service area)
 2. Collecting qualifying details via contact form (property type, service type)
 3. Only sending serious prospects to the Thumbtack booking page
 
-**Live Thumbtack profile:** https://www.thumbtack.com/id/post-falls/house-cleaning/tj-cleaning-llc/service/453572507345846278
+**Live Thumbtack profile:** <https://www.thumbtack.com/id/post-falls/house-cleaning/tj-cleaning-llc/service/453572507345846278>
 
 ---
 
@@ -56,6 +57,7 @@ A simple, professional marketing website for a local house cleaning service base
 ```
 
 Currently a single HTML file with all styles inline. If the site grows, consider extracting:
+
 - `styles.css` — main stylesheet
 - `images/` — if photos are added later
 
@@ -67,17 +69,21 @@ Currently a single HTML file with all styles inline. If the site grows, consider
 **Domain:** TBD (owner will purchase separately)
 **Form handling:** Currently `action="#"` — needs Netlify Forms or similar
 
-### To enable Netlify Forms:
+### To enable Netlify Forms
 
 1. Add `data-netlify="true"` to the `<form>` element
 2. Add a hidden input for the form name:
+
    ```html
    <input type="hidden" name="form-name" value="contact">
    ```
+
 3. Optionally add spam protection:
+
    ```html
    <input type="hidden" name="bot-field">
    ```
+
    And add `data-netlify-honeypot="bot-field"` to the form.
 
 ---
@@ -85,19 +91,24 @@ Currently a single HTML file with all styles inline. If the site grows, consider
 ## Content Notes
 
 ### Business name
+
 Currently "T&J Cleaning" throughout. The "T" refers to an ex-partner, so the business will likely be renamed. All instances are easy to find/replace:
+
 - `<title>` tag
 - `.site-title` link text
 - Footer text
 - Meta description (if updating)
 
 ### Service area
+
 Spokane, Spokane Valley, Post Falls, Coeur d'Alene, Hayden, Rathdrum. Collectively referred to as "the Inland Northwest" in some copy.
 
 ### Reviews
+
 Pulled from Thumbtack. All are real 5-star reviews with reviewer initials preserved. If adding more reviews, maintain the same format and keep them genuine.
 
 ### Credentials listed
+
 - Background checked ✓
 - Thumbtack Top Pro 2022 ✓
 - 4+ years in business ✓
